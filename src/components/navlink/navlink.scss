@@ -1,0 +1,18 @@
+.nav-link {
+  color: rgb(226, 222, 217);
+  font-size: 24px;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: all ease 0.3s;
+  border: none;
+  outline: none;
+  background-color: rgba(124, 70, 175, 0.712);
+
+  &:hover {
+    background-color: rgba(204, 193, 37, 0.74);
+  }
+
+  &.active {
+    background-color: rgba(204, 193, 37, 0.74);
+  }
+}
